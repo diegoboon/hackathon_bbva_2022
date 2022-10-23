@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>forecash</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+  <script
+    src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=visualization&key=AIzaSyDpaHBYdgBJ_-iKSjXAqUm20RH_2Bwslvk"></script>
+ 
+  <script src="javascript/dispensador.js"></script>
+  <script src="javascript/practicaja.js"></script>
+  <script src="javascript/fallos.js"></script>
+ 
+  
+  <link rel="StyleSheet" href="css/style.css" type="text/css">
+  <link rel="shortcut icon" href="img/icono.ico">
+
+</head>
+
+<body>
+
+  <div   id="menu">
+    <div  id="stats">
+        <img src="img/logo.png" width="200" height="40"/>
+        <h3 style="font-family: 'Poppins', sans-serif; color:#fff;">Opciones:</h3>
+        <table  >
+          <tr >
+              <td >
+                <ul class="menu">
+                  <li >
+                    <a href="#dispensadores" class="boton disp"  ><img src="img/arm.png" height="50" width="50"/>Dispensadores&nbsp;&nbsp;&nbsp;</a></a>
+                  </li>
+                  <li >
+                    <a href="#practi-cajas" class="boton disp" ><img src="img/tt.png" height="50" width="50"/>Practicajas&nbsp;&nbsp;&nbsp;</a></a>
+                  </li>
+                   <li >
+                    <a href="#fallos" class="boton disp" ><img src="img/error.png" height="50" width="50"/>Fallos&nbsp;&nbsp;&nbsp;</a></a>
+                  </li>
+                  
+                </ul>
+               
+          </tr>
+         
+          
+      </table>
+    </div>
+</div>
+  <ul class="slider">
+          <li id="dispensadores">
+            <div id="mapDisp"></div>
+          </li>
+          <li id="practi-cajas">
+            <div id="mapPC"></div>
+          </li>
+          <li id="fallos">
+            <div id="mapFallos"></div>
+          </li>
+         
+        </ul>
+  
+</body>
+
+</html>
