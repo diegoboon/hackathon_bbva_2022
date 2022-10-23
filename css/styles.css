@@ -1,9 +1,13 @@
 
-
       html, body {
         height: 100%;
         margin: 0;
         padding: 0;
+        background-color: #1a2441;
+        background-image: url('../img/logo.png');
+        background-size: 1070px 200px;
+        background-repeat: no-repeat;
+        background-position: center;
       }
       #mapDisp {
         height: 100%;
